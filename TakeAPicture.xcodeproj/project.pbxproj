@@ -13,6 +13,7 @@
 		6CFF76AA1C73D8C3004F6D1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFF76A81C73D8C3004F6D1D /* Main.storyboard */; };
 		6CFF76AC1C73D8C3004F6D1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFF76AB1C73D8C3004F6D1D /* Assets.xcassets */; };
 		6CFF76AF1C73D8C3004F6D1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFF76AD1C73D8C3004F6D1D /* LaunchScreen.storyboard */; };
+		6CFF76B71C73DA80004F6D1D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFF76B61C73DA80004F6D1D /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		6CFF76AB1C73D8C3004F6D1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CFF76AE1C73D8C3004F6D1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6CFF76B01C73D8C3004F6D1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CFF76B61C73DA80004F6D1D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFF76B71C73DA80004F6D1D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		6CFF76931C73D8C3004F6D1D = {
 			isa = PBXGroup;
 			children = (
+				6CFF76B61C73DA80004F6D1D /* AVFoundation.framework */,
 				6CFF769E1C73D8C3004F6D1D /* TakeAPicture */,
 				6CFF769D1C73D8C3004F6D1D /* Products */,
 			);
